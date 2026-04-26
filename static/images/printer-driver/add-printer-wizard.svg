@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Segoe UI, Arial, sans-serif">
+  <!-- Background overlay -->
+  <rect width="640" height="480" fill="#00000030"/>
+  <!-- Dialog shadow -->
+  <rect x="84" y="84" width="472" height="312" rx="10" fill="#00000020"/>
+  <!-- Dialog window -->
+  <rect x="80" y="80" width="472" height="312" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+  <!-- Title bar -->
+  <rect x="80" y="80" width="472" height="44" rx="10" fill="#f8fafc"/>
+  <rect x="80" y="110" width="472" height="14" fill="#f8fafc"/>
+  <text x="106" y="107" font-size="14" font-weight="600" fill="#1e293b">Add a device</text>
+  <text x="530" y="107" font-size="18" fill="#94a3b8" font-weight="300">✕</text>
+
+  <!-- Searching animation area -->
+  <rect x="96" y="142" width="440" height="56" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="316" y="165" text-anchor="middle" font-size="13" fill="#1d4ed8">🔍  Searching for printers and scanners...</text>
+  <!-- Progress bar -->
+  <rect x="116" y="174" width="400" height="6" rx="3" fill="#dbeafe"/>
+  <rect x="116" y="174" width="260" height="6" rx="3" fill="#3b82f6"/>
+
+  <!-- Found devices list -->
+  <text x="96" y="222" font-size="12" font-weight="600" fill="#475569">Devices found (2)</text>
+
+  <!-- Device 1 - highlighted/selected -->
+  <rect x="96" y="232" width="440" height="52" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="112" y="246" width="32" height="26" rx="3" fill="#dbeafe"/>
+  <path d="M117 250 h22 v8 h-22z" fill="#93c5fd"/>
+  <path d="M119 258 h18 v10 h-18z" fill="#bfdbfe"/>
+  <text x="158" y="254" font-size="13" font-weight="700" fill="#1d4ed8">HP LaserJet Pro M404n</text>
+  <text x="158" y="272" font-size="11" fill="#3b82f6">192.168.1.105  •  Network printer  •  Ready</text>
+  <circle cx="506" cy="258" r="8" fill="#3b82f6"/>
+  <text x="506" y="262" text-anchor="middle" font-size="10" fill="#fff">✓</text>
+
+  <!-- Device 2 -->
+  <rect x="96" y="292" width="440" height="52" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="112" y="306" width="32" height="26" rx="3" fill="#f1f5f9"/>
+  <path d="M117 310 h22 v8 h-22z" fill="#cbd5e1"/>
+  <path d="M119 318 h18 v10 h-18z" fill="#e2e8f0"/>
+  <text x="158" y="314" font-size="13" font-weight="600" fill="#334155">Canon PIXMA TS3350</text>
+  <text x="158" y="332" font-size="11" fill="#64748b">USB connected  •  Ready</text>
+
+  <!-- Buttons -->
+  <rect x="96" y="360" width="140" height="16" rx="3" fill="#f1f5f9"/>
+  <text x="166" y="372" text-anchor="middle" font-size="10" fill="#64748b">The printer I want isn't listed</text>
+
+  <rect x="340" y="352" width="86" height="32" rx="6" fill="#e2e8f0"/>
+  <text x="383" y="372" text-anchor="middle" font-size="13" fill="#475569">Cancel</text>
+
+  <rect x="434" y="352" width="86" height="32" rx="6" fill="#3b82f6"/>
+  <text x="477" y="372" text-anchor="middle" font-size="13" fill="#fff" font-weight="600">Add device</text>
+
+  <!-- Annotation -->
+  <polygon points="520,252 555,230 555,274" fill="#ef4444" opacity="0.9"/>
+  <rect x="558" y="218" width="66" height="44" rx="6" fill="#ef4444"/>
+  <text x="591" y="236" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">Select your</text>
+  <text x="591" y="250" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">printer here</text>
+</svg>

@@ -1,0 +1,197 @@
+baseURL = "https://no6player.github.io/"
+title = "Printer Help"
+theme = "PaperMod"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+  disableXML = false
+  minifyOutput = true
+
+[params]
+  env = "production"
+  author = "Printer Help"
+  description = "Solutions for printer installation and sharing problems"
+  keywords = ["printer", "installation", "sharing", "driver", "troubleshooting"]
+
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+  [params.homeInfoParams]
+    Title = "Printer Help"
+    Content = "Find solutions to printer installation and network sharing problems"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/no6player"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# ──────────────────────────────
+#  Languages
+# ──────────────────────────────
+[languages]
+
+  [languages.en]
+    languageName = "English"
+    languageCode = "en"
+    contentDir = "content/en"
+    weight = 1
+    title = "Printer Help"
+    [languages.en.params]
+      description = "Solutions for printer installation and sharing problems"
+    [[languages.en.menu.main]]
+      name = "Home"
+      url = "/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Articles"
+      url = "/posts/"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "Search"
+      url = "/search/"
+      weight = 3
+
+  [languages.de]
+    languageName = "Deutsch"
+    languageCode = "de"
+    contentDir = "content/de"
+    weight = 2
+    title = "Drucker Hilfe"
+    [languages.de.params]
+      description = "Lösungen für Drucker-Installations- und Freigabeprobleme"
+    [[languages.de.menu.main]]
+      name = "Startseite"
+      url = "/de/"
+      weight = 1
+    [[languages.de.menu.main]]
+      name = "Artikel"
+      url = "/de/posts/"
+      weight = 2
+    [[languages.de.menu.main]]
+      name = "Suche"
+      url = "/de/search/"
+      weight = 3
+
+  [languages.fr]
+    languageName = "Français"
+    languageCode = "fr"
+    contentDir = "content/fr"
+    weight = 3
+    title = "Aide Imprimante"
+    [languages.fr.params]
+      description = "Solutions aux problèmes d'installation et de partage d'imprimantes"
+    [[languages.fr.menu.main]]
+      name = "Accueil"
+      url = "/fr/"
+      weight = 1
+    [[languages.fr.menu.main]]
+      name = "Articles"
+      url = "/fr/posts/"
+      weight = 2
+    [[languages.fr.menu.main]]
+      name = "Recherche"
+      url = "/fr/search/"
+      weight = 3
+
+  [languages.es]
+    languageName = "Español"
+    languageCode = "es"
+    contentDir = "content/es"
+    weight = 4
+    title = "Ayuda Impresora"
+    [languages.es.params]
+      description = "Soluciones a problemas de instalación y uso compartido de impresoras"
+    [[languages.es.menu.main]]
+      name = "Inicio"
+      url = "/es/"
+      weight = 1
+    [[languages.es.menu.main]]
+      name = "Artículos"
+      url = "/es/posts/"
+      weight = 2
+    [[languages.es.menu.main]]
+      name = "Buscar"
+      url = "/es/search/"
+      weight = 3
+
+  [languages.pt]
+    languageName = "Português"
+    languageCode = "pt"
+    contentDir = "content/pt"
+    weight = 5
+    title = "Ajuda Impressora"
+    [languages.pt.params]
+      description = "Soluções para problemas de instalação e compartilhamento de impressoras"
+    [[languages.pt.menu.main]]
+      name = "Início"
+      url = "/pt/"
+      weight = 1
+    [[languages.pt.menu.main]]
+      name = "Artigos"
+      url = "/pt/posts/"
+      weight = 2
+    [[languages.pt.menu.main]]
+      name = "Pesquisar"
+      url = "/pt/search/"
+      weight = 3
+
+  [languages.ru]
+    languageName = "Русский"
+    languageCode = "ru"
+    contentDir = "content/ru"
+    weight = 6
+    title = "Помощь с принтером"
+    [languages.ru.params]
+      description = "Решения проблем с установкой и совместным использованием принтеров"
+    [[languages.ru.menu.main]]
+      name = "Главная"
+      url = "/ru/"
+      weight = 1
+    [[languages.ru.menu.main]]
+      name = "Статьи"
+      url = "/ru/posts/"
+      weight = 2
+    [[languages.ru.menu.main]]
+      name = "Поиск"
+      url = "/ru/search/"
+      weight = 3
+
+  [languages.it]
+    languageName = "Italiano"
+    languageCode = "it"
+    contentDir = "content/it"
+    weight = 7
+    title = "Aiuto Stampante"
+    [languages.it.params]
+      description = "Soluzioni ai problemi di installazione e condivisione delle stampanti"
+    [[languages.it.menu.main]]
+      name = "Home"
+      url = "/it/"
+      weight = 1
+    [[languages.it.menu.main]]
+      name = "Articoli"
+      url = "/it/posts/"
+      weight = 2
+    [[languages.it.menu.main]]
+      name = "Cerca"
+      url = "/it/search/"
+      weight = 3
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
