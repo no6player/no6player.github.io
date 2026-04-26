@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="Segoe UI, Arial, sans-serif">
+  <!-- Background -->
+  <rect width="760" height="400" fill="#f8fafc" rx="12"/>
+  <text x="380" y="36" text-anchor="middle" font-size="17" font-weight="700" fill="#1e293b">Manual Driver Download — Step by Step</text>
+
+  <!-- Step 1 -->
+  <rect x="24" y="56" width="160" height="310" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="24" y="56" width="160" height="44" rx="10" fill="#0ea5e9"/>
+  <rect x="24" y="86" width="160" height="14" fill="#0ea5e9"/>
+  <text x="104" y="84" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Step 1</text>
+  <text x="104" y="120" text-anchor="middle" font-size="11" fill="#475569" font-weight="600">Go to manufacturer</text>
+  <text x="104" y="138" text-anchor="middle" font-size="11" fill="#475569">website</text>
+  <!-- Browser mockup -->
+  <rect x="38" y="152" width="132" height="90" rx="5" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+  <rect x="38" y="152" width="132" height="22" rx="5" fill="#e2e8f0"/>
+  <rect x="38" y="162" width="132" height="12" fill="#e2e8f0"/>
+  <rect x="44" y="156" width="80" height="12" rx="3" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="52" y="166" font-size="8" fill="#64748b">hp.com/support</text>
+  <text x="104" y="200" text-anchor="middle" font-size="22">🌐</text>
+  <text x="104" y="225" text-anchor="middle" font-size="10" fill="#0ea5e9">hp.com</text>
+  <text x="104" y="240" text-anchor="middle" font-size="10" fill="#64748b">canon.com</text>
+  <text x="104" y="255" text-anchor="middle" font-size="10" fill="#64748b">epson.com</text>
+  <text x="104" y="270" text-anchor="middle" font-size="10" fill="#64748b">brother.com</text>
+  <text x="104" y="300" text-anchor="middle" font-size="10" fill="#94a3b8">Search "Support"</text>
+  <text x="104" y="316" text-anchor="middle" font-size="10" fill="#94a3b8">or "Drivers"</text>
+  <text x="104" y="340" text-anchor="middle" font-size="10" fill="#94a3b8">on the homepage</text>
+
+  <!-- Arrow 1 -->
+  <text x="203" y="218" text-anchor="middle" font-size="28" fill="#94a3b8">→</text>
+
+  <!-- Step 2 -->
+  <rect x="220" y="56" width="160" height="310" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="220" y="56" width="160" height="44" rx="10" fill="#0ea5e9"/>
+  <rect x="220" y="86" width="160" height="14" fill="#0ea5e9"/>
+  <text x="300" y="84" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Step 2</text>
+  <text x="300" y="120" text-anchor="middle" font-size="11" fill="#475569" font-weight="600">Enter printer model</text>
+  <!-- Search box mockup -->
+  <rect x="234" y="148" width="132" height="34" rx="6" fill="#f8fafc" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="300" y="170" text-anchor="middle" font-size="11" fill="#334155">M404n</text>
+  <text x="356" y="168" font-size="16" fill="#3b82f6">🔍</text>
+  <!-- Results -->
+  <rect x="234" y="194" width="132" height="26" rx="4" fill="#dbeafe"/>
+  <text x="300" y="211" text-anchor="middle" font-size="10" fill="#1d4ed8">HP LaserJet Pro M404n</text>
+  <rect x="234" y="226" width="132" height="26" rx="4" fill="#f1f5f9"/>
+  <text x="300" y="243" text-anchor="middle" font-size="10" fill="#475569">HP LaserJet Pro M404dn</text>
+  <rect x="234" y="258" width="132" height="26" rx="4" fill="#f1f5f9"/>
+  <text x="300" y="275" text-anchor="middle" font-size="10" fill="#475569">HP LaserJet Pro M404dw</text>
+  <text x="300" y="316" text-anchor="middle" font-size="10" fill="#94a3b8">Check the label on your</text>
+  <text x="300" y="332" text-anchor="middle" font-size="10" fill="#94a3b8">printer for the exact</text>
+  <text x="300" y="348" text-anchor="middle" font-size="10" fill="#94a3b8">model number</text>
+
+  <!-- Arrow 2 -->
+  <text x="399" y="218" text-anchor="middle" font-size="28" fill="#94a3b8">→</text>
+
+  <!-- Step 3 -->
+  <rect x="416" y="56" width="160" height="310" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="416" y="56" width="160" height="44" rx="10" fill="#0ea5e9"/>
+  <rect x="416" y="86" width="160" height="14" fill="#0ea5e9"/>
+  <text x="496" y="84" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Step 3</text>
+  <text x="496" y="120" text-anchor="middle" font-size="11" fill="#475569" font-weight="600">Select OS &amp; download</text>
+  <!-- OS selector -->
+  <rect x="430" y="140" width="132" height="28" rx="5" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="484" y="158" font-size="11" fill="#334155">Windows 11 (64-bit)</text>
+  <text x="548" y="157" font-size="14" fill="#64748b">▾</text>
+  <!-- Driver list -->
+  <rect x="430" y="178" width="132" height="46" rx="5" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="496" y="196" text-anchor="middle" font-size="10" fill="#166534" font-weight="600">Full Feature Driver</text>
+  <text x="496" y="212" text-anchor="middle" font-size="9" fill="#16a34a">v9.5.1 • 384 MB</text>
+  <rect x="430" y="232" width="132" height="46" rx="5" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="496" y="250" text-anchor="middle" font-size="10" fill="#334155">Basic Driver</text>
+  <text x="496" y="266" text-anchor="middle" font-size="9" fill="#64748b">v9.5.1 • 28 MB</text>
+  <!-- Download button -->
+  <rect x="448" y="290" width="96" height="28" rx="5" fill="#22c55e"/>
+  <text x="496" y="308" text-anchor="middle" font-size="12" fill="#fff" font-weight="700">⬇ Download</text>
+  <text x="496" y="340" text-anchor="middle" font-size="10" fill="#94a3b8">Recommended:</text>
+  <text x="496" y="356" text-anchor="middle" font-size="10" fill="#94a3b8">Full Feature</text>
+
+  <!-- Arrow 3 -->
+  <text x="595" y="218" text-anchor="middle" font-size="28" fill="#94a3b8">→</text>
+
+  <!-- Step 4 -->
+  <rect x="612" y="56" width="124" height="310" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <rect x="612" y="56" width="124" height="44" rx="10" fill="#22c55e"/>
+  <rect x="612" y="86" width="124" height="14" fill="#22c55e"/>
+  <text x="674" y="84" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Step 4</text>
+  <text x="674" y="120" text-anchor="middle" font-size="11" fill="#475569" font-weight="600">Run installer</text>
+  <!-- Installer mockup -->
+  <rect x="624" y="142" width="100" height="120" rx="6" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="674" y="172" text-anchor="middle" font-size="28">📦</text>
+  <text x="674" y="202" text-anchor="middle" font-size="9" fill="#166534" font-weight="600">HP_LaserJet_</text>
+  <text x="674" y="216" text-anchor="middle" font-size="9" fill="#166534" font-weight="600">M404n_setup.exe</text>
+  <text x="674" y="232" text-anchor="middle" font-size="9" fill="#94a3b8">Double-click</text>
+  <text x="674" y="246" text-anchor="middle" font-size="9" fill="#94a3b8">to run</text>
+  <!-- Checkmarks -->
+  <g font-size="10" fill="#334155">
+    <text x="626" y="286">✅ Accept license</text>
+    <text x="626" y="304">✅ Choose install dir</text>
+    <text x="626" y="322">✅ Click Install</text>
+    <text x="626" y="340">✅ Click Finish</text>
+  </g>
+  <rect x="628" y="352" width="92" height="6" rx="3" fill="#dbeafe"/>
+  <rect x="628" y="352" width="80" height="6" rx="3" fill="#3b82f6"/>
+</svg>

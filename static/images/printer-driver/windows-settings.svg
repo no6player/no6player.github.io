@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" font-family="Segoe UI, Arial, sans-serif">
+  <!-- Window shadow -->
+  <rect x="14" y="14" width="692" height="432" rx="10" fill="#00000015"/>
+  <!-- Window frame -->
+  <rect x="10" y="10" width="692" height="432" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+  <!-- Title bar -->
+  <rect x="10" y="10" width="692" height="40" rx="10" fill="#f1f5f9"/>
+  <rect x="10" y="36" width="692" height="14" fill="#f1f5f9"/>
+  <!-- Window controls -->
+  <circle cx="645" cy="30" r="7" fill="#fbbf24"/>
+  <circle cx="665" cy="30" r="7" fill="#34d399"/>
+  <circle cx="685" cy="30" r="7" fill="#f87171"/>
+  <text x="36" y="34" font-size="13" fill="#475569" font-weight="600">⚙  Settings</text>
+
+  <!-- Left sidebar -->
+  <rect x="10" y="50" width="200" height="392" fill="#f8fafc"/>
+  <!-- Search box in sidebar -->
+  <rect x="22" y="62" width="176" height="30" rx="6" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="38" y="82" font-size="12" fill="#94a3b8">🔍  Find a setting</text>
+
+  <!-- Sidebar menu items -->
+  <g font-size="13" fill="#475569">
+    <text x="30" y="118">🏠  Home</text>
+    <text x="30" y="148">🖥  System</text>
+    <text x="30" y="178">📶  Network &amp; Internet</text>
+    <!-- Highlighted item -->
+    <rect x="10" y="196" width="200" height="34" fill="#dbeafe"/>
+    <rect x="10" y="196" width="4" height="34" fill="#3b82f6"/>
+    <text x="30" y="218" font-weight="700" fill="#1d4ed8">🔵  Bluetooth &amp; devices</text>
+    <text x="30" y="248">🎨  Personalisation</text>
+    <text x="30" y="278">📱  Apps</text>
+    <text x="30" y="308">👤  Accounts</text>
+    <text x="30" y="338">🕐  Time &amp; Language</text>
+    <text x="30" y="368">🎮  Gaming</text>
+  </g>
+
+  <!-- Main content area -->
+  <rect x="210" y="50" width="492" height="392" fill="#fff"/>
+
+  <!-- Breadcrumb -->
+  <text x="228" y="80" font-size="12" fill="#64748b">Home  ›  Bluetooth &amp; devices  ›</text>
+  <text x="428" y="80" font-size="12" fill="#1d4ed8" font-weight="600"> Printers &amp; scanners</text>
+
+  <!-- Page title -->
+  <text x="228" y="116" font-size="22" font-weight="700" fill="#0f172a">Printers &amp; scanners</text>
+
+  <!-- Add printer button - highlighted -->
+  <rect x="228" y="130" width="200" height="40" rx="6" fill="#3b82f6"/>
+  <text x="328" y="155" text-anchor="middle" font-size="14" fill="#fff" font-weight="600">＋  Add a printer or scanner</text>
+  <!-- Pointer arrow -->
+  <polygon points="440,150 470,140 470,160" fill="#ef4444"/>
+  <text x="478" y="155" font-size="12" fill="#ef4444" font-weight="700">← Click here!</text>
+
+  <!-- Divider -->
+  <line x1="228" y1="184" x2="692" y2="184" stroke="#f1f5f9" stroke-width="1"/>
+  <text x="228" y="206" font-size="13" font-weight="600" fill="#475569">Printers &amp; scanners (2)</text>
+
+  <!-- Printer item 1 -->
+  <rect x="228" y="218" width="452" height="60" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="244" y="234" width="30" height="28" rx="3" fill="#dbeafe"/>
+  <path d="M250 238 h18 v8 h-18z" fill="#93c5fd"/>
+  <path d="M252 246 h14 v12 h-14z" fill="#bfdbfe"/>
+  <text x="284" y="240" font-size="13" font-weight="600" fill="#1e293b">HP LaserJet Pro M404n</text>
+  <text x="284" y="258" font-size="11" fill="#64748b">Ready  •  Default printer</text>
+  <circle cx="636" cy="248" r="5" fill="#22c55e"/>
+
+  <!-- Printer item 2 -->
+  <rect x="228" y="290" width="452" height="60" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="244" y="306" width="30" height="28" rx="3" fill="#ede9fe"/>
+  <path d="M250 310 h18 v8 h-18z" fill="#c4b5fd"/>
+  <path d="M252 318 h14 v12 h-14z" fill="#ddd6fe"/>
+  <text x="284" y="312" font-size="13" font-weight="600" fill="#1e293b">Canon PIXMA TS3350</text>
+  <text x="284" y="330" font-size="11" fill="#94a3b8">Offline</text>
+  <circle cx="636" cy="320" r="5" fill="#f87171"/>
+
+  <!-- Info box -->
+  <rect x="228" y="368" width="452" height="56" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="252" y="390" font-size="12" fill="#1d4ed8">ℹ  Tip: If your printer is not listed, make sure it is powered on</text>
+  <text x="252" y="410" font-size="12" fill="#1d4ed8">     and connected before clicking "Add a printer or scanner".</text>
+</svg>
