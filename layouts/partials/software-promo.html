@@ -1,0 +1,99 @@
+<div class="software-promo">
+  <div class="promo-eyebrow">{{ i18n "promo_eyebrow" }}</div>
+  <div class="promo-body">
+    <div class="promo-text">
+      <h3 class="promo-headline">{{ i18n "promo_headline" }}</h3>
+      <p class="promo-desc">{{ i18n "promo_body" }}</p>
+      <div class="promo-badges">
+        <span>✅ {{ i18n "promo_badge_free" }}</span>
+        <span>🖥 {{ i18n "promo_badge_win" }}</span>
+        <span>🔒 {{ i18n "promo_badge_safe" }}</span>
+      </div>
+    </div>
+    <div class="promo-action">
+      <a href="#" class="promo-btn">
+        ⬇ {{ i18n "promo_cta" }}
+      </a>
+      <p class="promo-sub">{{ i18n "promo_sub" }}</p>
+    </div>
+  </div>
+</div>
+
+<style>
+.software-promo {
+  margin: 2.5rem 0;
+  border: 2px solid #3b82f6;
+  border-radius: 12px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #eff6ff 0%, #f0fdf4 100%);
+}
+.promo-eyebrow {
+  background: #3b82f6;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 6px 16px;
+  text-transform: uppercase;
+}
+.promo-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  flex-wrap: wrap;
+}
+.promo-text { flex: 1; min-width: 200px; }
+.promo-headline {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+  color: #1e3a5f;
+  border: none;
+  padding: 0;
+}
+.promo-desc {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+  color: #374151;
+  line-height: 1.6;
+}
+.promo-badges {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  color: #374151;
+}
+.promo-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+.promo-btn {
+  display: inline-block;
+  background: #3b82f6;
+  color: #fff !important;
+  padding: 0.65rem 1.4rem;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+.promo-btn:hover { background: #2563eb; }
+.promo-sub {
+  margin: 0;
+  font-size: 0.72rem;
+  color: #6b7280;
+  text-align: center;
+}
+@media (max-width: 540px) {
+  .promo-body { flex-direction: column; }
+  .promo-action { width: 100%; }
+  .promo-btn { width: 100%; text-align: center; }
+}
+</style>
