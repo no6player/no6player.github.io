@@ -1,6 +1,7 @@
 baseURL = "https://no6player.github.io/"
 title = "Printer Help"
 theme = "PaperMod"
+googleAnalytics = "G-P84EDK4VF0"
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
