@@ -4,7 +4,8 @@ theme = "PaperMod"
 googleAnalytics = "G-P84EDK4VF0"
 
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
+timeZone = "Asia/Shanghai"
 
 enableRobotsTXT = true
 buildDrafts = false
@@ -55,15 +56,15 @@ buildExpired = false
       description = "Solutions for printer installation and sharing problems"
     [[languages.en.menu.main]]
       name = "Home"
-      url = "/"
+      url = "/en/"
       weight = 1
     [[languages.en.menu.main]]
       name = "Articles"
-      url = "/posts/"
+      url = "/en/posts/"
       weight = 2
     [[languages.en.menu.main]]
       name = "Search"
-      url = "/search/"
+      url = "/en/search/"
       weight = 3
 
   [languages.de]
